@@ -1,13 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
 
-# Initialize a counter variable
-count=0
-
-# Use a while loop to display "Best School" 10 times
-while [ $count -lt 10 ]; do
+# Loop 10 times and display "Best School" each time
+for i in {1..10}
+do
     echo "Best School"
-    
-    # Increment the counter
-    count=$((count + 1))
 done
-
