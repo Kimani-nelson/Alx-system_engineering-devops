@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
+# Displays its own PID.
 
-# Displays the PID of the current script
-
-my_pid=$(echo $$)
-echo "PID of this script is: $my_pid"
+echo $$
